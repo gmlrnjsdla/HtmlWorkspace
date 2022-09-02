@@ -1,4 +1,21 @@
 h2{
-    color:#ff00ff;
-    font-size:50px;
+    text-align:center; /* 가운데 정령 */
+    color:#ff00ff; /* 글자색 */
+    font-size:50px; /* 글자 크기 */
+    font-family:"궁서"; /*글꼴 */
+    font-style:italic; /* 기울임 */
+    font-weight:bold; /* 굵게 */
+    /*font-weight:normal; /* 반대로 */
+    /*text-decoration:underline; /* 밑줄 */
+    /*text-decoration:overline; /* 윗줄 */
+    text-decoration:line-through; /* 취소선 */
+    text-decoration-color:red; /* 밑줄 색 */
+    text-shadow: 3px 3px 5px #444444; /* 그림자 효과 */
+}
+
+a{
+    text-decoration:none; /* 효과 없음 */
+}
+p{
+    line-height:400%
 }

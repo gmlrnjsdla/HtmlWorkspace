@@ -1,0 +1,10 @@
+body{
+    background-color:gray;
+    background-image:url(../img/flowerbee.jpg);
+    background-repeat:no-repeat;
+    background-position:center center; /* 배경 이미지를 정중앙 */
+}
+
+#chusuk{
+    background-color:skyblue;
+}

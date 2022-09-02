@@ -1,0 +1,7 @@
+li{
+    /*list-style-type:square;*/ /*네모 */
+    /*list-style-type:disc;*/ /*기본 동그라미 */
+    /* list-style-type:circle;*/ /* 빈 동그라미 */
+    /*list-style-type:none;*/ /*없음 */
+    list-style-image:url("../img/dote_blue.gif");
+}

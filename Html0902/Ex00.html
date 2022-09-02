@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>form</title>
 </head>
 <body>
+    <form action="">
+        ID :
+        <input  type ="text" name="id"><br>
+        PASSWORD :
+        <input  type ="password" name="pw"><br>
+        <input type = "submit" value="로그인"><br>
+        성별 :
+        <input type = "radio" name = "gender" checked>남
+        <input type = "radio" name = "gender">여 <br>
+        취미 :
+        <input type="checkbox" name="hobby1">등산
+        <input type="checkbox" name="hobby2">독서
+        <input type="checkbox" name="hobby3">운동
+        <input type="checkbox" name="hobby4">게임<br>
+        이메일 :
+        <input type="text">@
+        <select>
+            <option>선택</option>
+            <option>naver.com</option>
+            <option>daum.net</option>
+            <option>google.com</option>
+            <option>직접입력</option>
+        </select><br>
+        성별 :
+        <select>
+            <option>성별</option>
+            <option>남자</option>
+            <option>여자</option>
+            <option>선택안함</option>
+        </select><br>
+        자기소개 :<br>
+        <textarea rows="5" cols="50">별명:</textarea><br>
+        사진첨부 : <input type="file">※ 2MB까지 첨부 가능<br>
+        좋아하는 색 : <input type="color"><br>
+        예약시간 : <input type="datetime-local"><br>
+        생일 : <input type="date"><br>
+        좋아하는 숫자 : <input type="number">
 
+    </form>
 </body>
 </html>

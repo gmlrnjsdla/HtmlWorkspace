@@ -1,0 +1,27 @@
+h2.title{
+    font-size:50px;
+    text-align:center;
+    color:pink;
+}
+
+h2.content{
+    font-size:20px;
+    color:blue;
+}
+h3.title{
+    color:red;
+    font-size:30px;
+}
+
+h1#title{
+    color:yellow;
+    font-size:40px;
+}/* title은 페이지당 한번만!*/
+
+h2#title{
+    color:purple;
+}
+
+#weather{
+    color:green;
+}

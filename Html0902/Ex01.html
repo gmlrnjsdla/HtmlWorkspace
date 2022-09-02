@@ -2,9 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>asdasd</title>
+    <title>form 예제</title>
 </head>
 <body>
-  asdasd
+
+<center><h1 >회 원 가 입</h1>
+
+<form>
+  <table border="1" bgcolor="B3FFF6">
+      <tr>
+          <td>이름</td>
+          <td><input type="text" name="name"> </td>
+      </tr>
+      <tr>
+          <td>성별</td>
+          <td><input type="radio"name="gender">남<input type="radio"name="gender">여 </td>
+      </tr>
+      <tr>
+          <td>아이디</td>
+          <td><input type="text" name="ID"><input type="button" value="중복확인"></td>
+      </tr>
+      <tr>
+          <td>비밀번호</td>
+          <td><input type="password" name="PW"> </td>
+      </tr>
+      <tr>
+          <td>비밀번호 재입력</td>
+          <td><input type="password"name="PWcheck"></td>
+      </tr>
+      <tr>
+          <td>주소</td>
+          <td><input type="text"name="adress"><input type="button" value="주소찾기"></td>
+      </tr>
+      <tr>
+          <td>이메일</td>
+          <td><input type="text" name="email">@<input type="text">
+              <select>
+              <option>선택</option>
+              <option>naver.com</option>
+              <option>daum.net</option>
+              <option>google.com</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+          <td>전화번호</td>
+          <td>
+          <select>
+              <option>선택</option>
+              <option>010</option>
+              <option>017</option>
+              <option>011</option>
+          </select>-
+
+              <input type="text" size="4">-
+              <input type="text" size="4">
+          </td>
+      </tr>
+      <tr>
+          <td>취미</td>
+          <td><input type="checkbox">여행
+              <input type="checkbox">쇼핑
+              <input type="checkbox">게임
+              <input type="checkbox">기타
+          </td>
+      </tr>
+      <tr>
+          <td>자기소개</td>
+          <td><textarea rows="10" cols="50"></textarea></td>
+      </tr>
+  </table>
+<br><br>
+    <input type="button" value="완료">
+    <input type="button" value="다시입력">
+    </center>
+</form>
 </body>
 </html>

@@ -1,0 +1,28 @@
+/*
+h1{
+    font-size: 60px;
+    color: red;
+    font-family:"궁서체";
+}
+*/
+#title1 {
+    font-size: 60px;
+    color: red;
+    font-family:"궁서체";
+}
+
+#title2 {
+    font-size: 30px;
+    color: purple;
+    font-family:"맑음 고딕";
+}
+
+.content1{
+    color:yellow;
+    font-size:40px;
+}
+
+.content2{
+    color:green;
+    font-size:40px;
+}

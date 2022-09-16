@@ -17,12 +17,16 @@ h1{
     font-family:"맑음 고딕";
 }
 
-.content1{
+h1.content1{
     color:yellow;
     font-size:40px;
 }
 
-.content2{
+h1.content2{
     color:green;
     font-size:40px;
+}
+
+h3.content2{
+    color:green;
 }

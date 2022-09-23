@@ -1,0 +1,64 @@
+*{ /*전체 선택자 여백설정*/
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:"맑은 고딕", "돋음", "궁서";
+    font-size:12px;
+}
+
+#login_box{
+    width:240px;
+    height:140px;
+    border:solid 1px #E7E7E7;
+    border-radius:15px;
+    margin:10px 0 0 15px;
+    padding:10px 0 0 15px;
+}
+
+h2{
+    margin:0 0 10px 0;
+}
+
+input.input_box{
+    width:100px;
+    height:15px;
+}
+
+#id_pass, #login_btn{
+    display:inline-block;
+    vertical-align:top;
+}
+
+span.id_pass_txt{
+    width:20px;
+    display:inline-block;
+    margin-right:5px;
+}
+
+#id_input{
+    margin-bottom:3px
+}
+
+#login_btn button{
+    padding: 10px;
+    margin: 0px 0px 0px 5px;
+    border-radius:5px;
+    border:solid 1px ;
+}
+
+ul{
+    list-style:None;
+}
+
+#btns{
+    text-decoration:underline;
+    margin-top:10px;
+
+}
+
+#btns li{
+    display:inline;
+    margin-left:7px
+}

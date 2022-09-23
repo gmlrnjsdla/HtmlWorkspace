@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type:None;
+}
+
+body{
+    background-color:#f2f0f0;
+    font-size:12px;
+    color:#444444;
+}
+
+#logo{
+    float:left;
+    padding:30px 0 0 30px;
+}
+
+.clear{
+    clear:both;
+}
+
+#top_menu{
+    margin:40px 30px 0 0;
+    float:right;
+}
+
+#top_menu li{
+    display:inline;
+}
+
+#main_menu li{
+    display:inline;
+    padding:0 20px 0 20px;
+
+}
+
+#main_menu{
+    background-color:#4e4c4d;
+    color:#ffffff;
+    padding:12px;
+    margin-top:15px;
+    text-align:center;
+}

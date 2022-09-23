@@ -11,44 +11,44 @@
       <div id="join_form">
         <ul id="mem_form">
           <li id="ID">
-            <ul>
+            <ul class="cols">
               <li class="col1">아이디 :</li>
               <li class="col2"><input type="text"></li>
             </ul>
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">비밀번호 :</li>
               <li class="col2"><input type="password"></li>
             </ul>
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">비밀번호 확인 :</li>
               <li class="col2"><input type="password"></li>
             </ul>
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">이름 :</li>
               <li class="col2"><input type="text"></li>
             </ul>
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">성별 :</li>
-              <li class="col2"><input type="radio" name="gender">여성
+              <li class="col2"><input type="radio" name="gender">여성&nbsp;&nbsp;
                                <input type="radio" name="gender">남성
               </li>
             </ul>
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">휴대전화 :</li>
               <li class="col2">
                 <select>
@@ -56,14 +56,14 @@
                   <option>011</option>
                   <option>018</option>
                 </select> -
-                <input type="text"> -
-                <input type="text">
+                <input class="phone" type="text"> -
+                <input class="phone" type="text">
               </li>
             </ul>
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">이메일 :</li>
               <li class="col2"><input type="text">@
                   <select>
@@ -77,18 +77,18 @@
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">취미 :</li>
-              <li class="col2"><input type="checkbox" name="hobby1">음악감상
-                               <input type="checkbox" name="hobby2">독서
-                               <input type="checkbox" name="hobby3">등산
+              <li class="col2"><input type="checkbox" name="hobby1">음악감상&nbsp;
+                               <input type="checkbox" name="hobby2">독서&nbsp;
+                               <input type="checkbox" name="hobby3">등산&nbsp;
               </li>
             </ul>
           </li>
 
           <li>
-            <ul>
-              <li class="col1">자기소개 :</li>
+            <ul class="cols">
+              <li class="col1" id="intro_txt">자기소개 :</li>
               <li class="col2">
                 <textarea cols="35" rows="5"></textarea>
               </li>
@@ -96,9 +96,9 @@
           </li>
 
           <li>
-            <ul>
+            <ul class="cols">
               <li class="col1">파일첨부 :</li>
-              <li class="col2"><input type="file">*2MB까지 가능</li>
+              <li class="col2"><input type="file"><span id="file_txt">*2MB까지 가능</span></li>
             </ul>
           </li>
 

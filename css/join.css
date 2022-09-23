@@ -6,3 +6,42 @@
 ul{
     list-style-type:None;
 }
+
+h3{
+    margin:20px 0 0 50px;
+}
+
+#join_form{
+    width:500px;
+    margin: 10px 0 0 50px;
+    border-top:solid 1px #cccccc;
+    border-bottom:solid 1px #cccccc;
+    padding:10px;
+}
+
+ul.cols li{
+    display:inline-block;
+    margin-top:5px;
+}
+
+ul.cols li.col1{
+    text-align:right;
+    width:120px;
+    font-weight:bold;
+    color:gray;
+}
+
+ul.cols li.col2{
+    width:350px;
+}
+
+input.phone{
+    width:50px;
+}
+
+#file_txt{
+    font-size:12px;
+}
+#intro_txt{
+    vertical-align:top;
+}

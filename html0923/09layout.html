@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>고정형 2단 레이아웃</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        #wrap{
+            width:1000px;
+            margin:0 auto;
+            border:solid 1px red;
+        }
+
+        header{
+            height:100px;
+            background-color:#cccccc;
+        }
+
+        header #header_content{
+            width:900px;
+            height:80px;
+            background-color:gold;
+            margin:0 auto;
+        }
+
+        aside#left{
+            float:left;
+            width:20%;
+            height:400px;
+            background-color:yellow;
+        }
+
+        aside#right{
+            float:left;
+            width:20%;
+            height:400px;
+            background-color:purple;
+        }
+
+        main{
+            float:left;
+            width:60%;
+            height:400px;
+            background-color:pink;
+        }
+
+        .clear{
+            clear:both;
+        }
+
+        footer{
+            height:100px;
+            background-color:green;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div id="header_content">
+            헤더(상단) 콘텐츠
+            </div>
+        </header>
+        <aside id="left">
+            좌측 콘텐츠
+        </aside>
+        <main>
+            메인 콘텐츠
+        </main>
+        <aside id="right">
+            우측 콘텐츠
+        </aside>
+
+        <div class="clear"></div>
+
+        <footer>
+            <div id="footer_content">
+            푸터(하단) 콘텐츠
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

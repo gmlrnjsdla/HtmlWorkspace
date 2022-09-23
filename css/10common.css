@@ -17,3 +17,14 @@ ul{
     clear:both;
 }
 
+#page{
+    width:1000px;
+    margin:0 auto;
+    /*border:solid 1px red;*/
+}
+
+.line{
+    margin-top:25px;
+    border-top:solid 1px #cccccc
+}
+

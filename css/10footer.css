@@ -1,0 +1,47 @@
+footer{
+    border-top:solid 3px #06b5b8;
+    padding:20px 0 0 15px;
+}
+
+#address{
+    float:left;
+}
+
+#cs_link{
+    float:right;
+}
+
+#footer_menu li{
+    margin-top:5px;
+}
+
+#company_info{
+    margin-top:20px;
+}
+
+#company_info li{
+    margin-top:3px;
+}
+
+#copyright{
+    margin-top:10px;
+    font-size:5px;
+    color:#888888;
+}
+
+#cs_link h3{
+    font-size:15px;
+    color:#06b5b8;
+}
+
+#cs_link select{
+    margin:5px 0 0 50px;
+    font-size:11px;
+    width:100px;
+    height:20px;
+}
+
+#icons{
+    margin:5px;
+    text-align:right;
+}

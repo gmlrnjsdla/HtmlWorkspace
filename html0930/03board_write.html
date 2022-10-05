@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css_0930/01main.css">
     <link rel="stylesheet" type="text/css" href="css_0930/01footer.css">
     <link rel="stylesheet" type="text/css" href="css_0930/02board_left.css">
-    <link rel="stylesheet" type="text/css" href="css_0930/02board_list_main.css">
+    <link rel="stylesheet" type="text/css" href="css_0930/03board_write_main.css">
 </head>
 <body>
   <div id="wrap">
@@ -66,67 +66,30 @@
         <section id="main">
             <img src="img_0930/comm.gif">
             <h2 id="board_title">자유 게시판</h2>
-            <div id="total_search">
-                <div id="total">
-                    ▷ 총 5개의 게시물이 있습니다.
-                </div>
-                <div id="search">
-                    <div id="select_img">
-                        <img src="img_0930/select_search.gif">
-                    </div>
-                    <div id="search_select">
-                        <select>
-                            <option>제목</option>
-                            <option>내용</option>
-                            <option>글쓴이</option>
-                        </select>
-                    </div>
-                    <div id="search_input">
-                        <input type="text">
-                    </div>
-                    <div id="search_btn">
-                        <img src="img_0930/search_button.gif">
-                    </div>
-                </div>
-            </div>      <!-- total search end -->
-            <table>
-                <tr>
-                    <th>번호</th>
-                    <th>제목</th>
-                    <th>글쓴이</th>
-                    <th>일시</th>
-                    <th>조회수</th>
-                </tr>
-                <tr>
-                    <td class="col1">1</td>
-                    <td class="col2"><a href="04board_view.html"> 까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2022-09-30</td>
-                    <td class="col5">15</td>
-                </tr>
-                <tr>
-                    <td class="col1">2</td>
-                    <td class="col2"><a href="04board_view.html"> 까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2022-09-30</td>
-                    <td class="col5">15</td>
-                </tr>
-                <tr>
-                    <td class="col1">3</td>
-                    <td class="col2"><a href="04board_view.html"> 까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2022-09-30</td>
-                    <td class="col5">15</td>
-                </tr>
-            </table>        <!-- 게시판 목록 테이블 end -->
+            <div>
+                <h2 id="write_title">글쓰기</h2>
+                <table>
+                    <tr id="name">
+                        <td class="col1">이름</td>
+                        <td class="col2"><input type="text"></td>
+                    </tr>
+                    <tr id="subject">
+                        <td class="col1">제목</td>
+                        <td class="col2"><input type="text"></td>
+                    </tr>
+                    <tr id="content">
+                        <td class="col1">내용</td>
+                        <td class="col2"><textarea></textarea></td>
+                    </tr>
+                    <tr id="upload">
+                        <td class="col1">업로드 파일</td>
+                        <td class="col2"><input type="file"></td>
+                    </tr>
+                </table>
+            </div>
             <div id="buttons">
-                <div class="col1">
-                    ◀이전 1 다음▶
-                </div>
-                <div class="col2">
-                    <a href="#"><img src="img_0930/list.png"></a>
-                    <a href="03board_write.html"><img src="img_0930/write.png"></a>
-                </div>
+                <a href="02board_list.html"><img src="img_0930/ok.png"></a>
+                <a href="02board_list.html"><img src="img_0930/list.png"></a>
             </div>
         </section>
     </main>

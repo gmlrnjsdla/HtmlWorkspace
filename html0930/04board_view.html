@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css_0930/01main.css">
     <link rel="stylesheet" type="text/css" href="css_0930/01footer.css">
     <link rel="stylesheet" type="text/css" href="css_0930/02board_left.css">
-    <link rel="stylesheet" type="text/css" href="css_0930/02board_list_main.css">
+    <link rel="stylesheet" type="text/css" href="css_0930/04board_view_main.css">
 </head>
 <body>
   <div id="wrap">
@@ -66,67 +66,26 @@
         <section id="main">
             <img src="img_0930/comm.gif">
             <h2 id="board_title">자유 게시판</h2>
-            <div id="total_search">
-                <div id="total">
-                    ▷ 총 5개의 게시물이 있습니다.
-                </div>
-                <div id="search">
-                    <div id="select_img">
-                        <img src="img_0930/select_search.gif">
-                    </div>
-                    <div id="search_select">
-                        <select>
-                            <option>제목</option>
-                            <option>내용</option>
-                            <option>글쓴이</option>
-                        </select>
-                    </div>
-                    <div id="search_input">
-                        <input type="text">
-                    </div>
-                    <div id="search_btn">
-                        <img src="img_0930/search_button.gif">
-                    </div>
-                </div>
-            </div>      <!-- total search end -->
-            <table>
-                <tr>
-                    <th>번호</th>
-                    <th>제목</th>
-                    <th>글쓴이</th>
-                    <th>일시</th>
-                    <th>조회수</th>
-                </tr>
-                <tr>
-                    <td class="col1">1</td>
-                    <td class="col2"><a href="04board_view.html"> 까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2022-09-30</td>
-                    <td class="col5">15</td>
-                </tr>
-                <tr>
-                    <td class="col1">2</td>
-                    <td class="col2"><a href="04board_view.html"> 까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2022-09-30</td>
-                    <td class="col5">15</td>
-                </tr>
-                <tr>
-                    <td class="col1">3</td>
-                    <td class="col2"><a href="04board_view.html"> 까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
-                    <td class="col3">루바토</td>
-                    <td class="col4">2022-09-30</td>
-                    <td class="col5">15</td>
-                </tr>
-            </table>        <!-- 게시판 목록 테이블 end -->
+            <div id="view_title_box">
+                <span id="boardTitle">까스통의 선물인 보드카가 정말 독하네요!!!</span>
+                <span id="info">루바토 | 조회수 : 208 | 2022-10-05 (09:21)</span>
+            </div>
+            <P id="view_content">
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+                까스통님 고맙습니다.<br>
+            </P>
+            <div id="comment_box">
+                <img id="title_comment" src="img_0930/title_comment.gif">
+                <textarea></textarea>
+                <img id="ok_ripple" src="img_0930/ok_ripple.gif">
+            </div>
             <div id="buttons">
-                <div class="col1">
-                    ◀이전 1 다음▶
-                </div>
-                <div class="col2">
-                    <a href="#"><img src="img_0930/list.png"></a>
-                    <a href="03board_write.html"><img src="img_0930/write.png"></a>
-                </div>
+                <a href="#"><img src="img_0930/delete.png"></a>
+                <a href="02board_list.html"><img src="img_0930/list.png"></a>
+                <a href="03board_write.html"><img src="img_0930/write.png"></a>
             </div>
         </section>
     </main>
